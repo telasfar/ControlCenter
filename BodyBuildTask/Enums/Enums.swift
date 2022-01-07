@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+enum CurrentViewState{
+  case normal
+  case detailed
+}

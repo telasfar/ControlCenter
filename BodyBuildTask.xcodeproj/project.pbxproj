@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E171F6727887E560013C495 /* BlueToothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E171F6627887E560013C495 /* BlueToothView.swift */; };
 		1E42789A27880F0000F6309C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42789927880F0000F6309C /* AppDelegate.swift */; };
 		1E42789C27880F0000F6309C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42789B27880F0000F6309C /* SceneDelegate.swift */; };
 		1E42789E27880F0000F6309C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42789D27880F0000F6309C /* ViewController.swift */; };
@@ -15,6 +16,13 @@
 		1E4278A627880F0300F6309C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4278A427880F0300F6309C /* LaunchScreen.storyboard */; };
 		1E4278B127880F0300F6309C /* BodyBuildTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4278B027880F0300F6309C /* BodyBuildTaskTests.swift */; };
 		1E4278BC27880F0300F6309C /* BodyBuildTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4278BB27880F0300F6309C /* BodyBuildTaskUITests.swift */; };
+		1E4278CF2788109D00F6309C /* RoundedBlurButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4278CE2788109D00F6309C /* RoundedBlurButton.swift */; };
+		1E4278D82788129800F6309C /* ButtonsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4278D72788129800F6309C /* ButtonsFactory.swift */; };
+		1E4278F32788185E00F6309C /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4278F22788185D00F6309C /* WidgetView.swift */; };
+		1E4278F9278819DE00F6309C /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4278F8278819DE00F6309C /* Extenstions.swift */; };
+		1E73493327882EA600EC7B3C /* AnimatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73493227882EA600EC7B3C /* AnimatorFactory.swift */; };
+		1E73493927882FA900EC7B3C /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73493827882FA900EC7B3C /* Enums.swift */; };
+		1E73494127885A0900EC7B3C /* ControlCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73494027885A0900EC7B3C /* ControlCenterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E171F6627887E560013C495 /* BlueToothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueToothView.swift; sourceTree = "<group>"; };
 		1E42789627880F0000F6309C /* BodyBuildTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BodyBuildTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E42789927880F0000F6309C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E42789B27880F0000F6309C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,13 @@
 		1E4278B727880F0300F6309C /* BodyBuildTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BodyBuildTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E4278BB27880F0300F6309C /* BodyBuildTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyBuildTaskUITests.swift; sourceTree = "<group>"; };
 		1E4278BD27880F0300F6309C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E4278CE2788109D00F6309C /* RoundedBlurButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBlurButton.swift; sourceTree = "<group>"; };
+		1E4278D72788129800F6309C /* ButtonsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsFactory.swift; sourceTree = "<group>"; };
+		1E4278F22788185D00F6309C /* WidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetView.swift; sourceTree = "<group>"; };
+		1E4278F8278819DE00F6309C /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
+		1E73493227882EA600EC7B3C /* AnimatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatorFactory.swift; sourceTree = "<group>"; };
+		1E73493827882FA900EC7B3C /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		1E73494027885A0900EC7B3C /* ControlCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCenterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +115,13 @@
 		1E42789827880F0000F6309C /* BodyBuildTask */ = {
 			isa = PBXGroup;
 			children = (
+				1E73494527885E1600EC7B3C /* ViewControllers */,
+				1E73493727882F9300EC7B3C /* Enums */,
+				1E4278F72788196B00F6309C /* Extenstions */,
+				1E4278D62788126F00F6309C /* Factory */,
+				1E4278CD27880F5F00F6309C /* Views */,
 				1E42789927880F0000F6309C /* AppDelegate.swift */,
 				1E42789B27880F0000F6309C /* SceneDelegate.swift */,
-				1E42789D27880F0000F6309C /* ViewController.swift */,
 				1E42789F27880F0000F6309C /* Main.storyboard */,
 				1E4278A227880F0300F6309C /* Assets.xcassets */,
 				1E4278A427880F0300F6309C /* LaunchScreen.storyboard */,
@@ -126,6 +146,50 @@
 				1E4278BD27880F0300F6309C /* Info.plist */,
 			);
 			path = BodyBuildTaskUITests;
+			sourceTree = "<group>";
+		};
+		1E4278CD27880F5F00F6309C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E4278CE2788109D00F6309C /* RoundedBlurButton.swift */,
+				1E4278F22788185D00F6309C /* WidgetView.swift */,
+				1E171F6627887E560013C495 /* BlueToothView.swift */,
+				1E73494027885A0900EC7B3C /* ControlCenterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1E4278D62788126F00F6309C /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				1E4278D72788129800F6309C /* ButtonsFactory.swift */,
+				1E73493227882EA600EC7B3C /* AnimatorFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		1E4278F72788196B00F6309C /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				1E4278F8278819DE00F6309C /* Extenstions.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		1E73493727882F9300EC7B3C /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				1E73493827882FA900EC7B3C /* Enums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		1E73494527885E1600EC7B3C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E42789D27880F0000F6309C /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +322,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E4278F32788185E00F6309C /* WidgetView.swift in Sources */,
+				1E73494127885A0900EC7B3C /* ControlCenterView.swift in Sources */,
+				1E4278CF2788109D00F6309C /* RoundedBlurButton.swift in Sources */,
+				1E171F6727887E560013C495 /* BlueToothView.swift in Sources */,
 				1E42789E27880F0000F6309C /* ViewController.swift in Sources */,
+				1E73493327882EA600EC7B3C /* AnimatorFactory.swift in Sources */,
+				1E4278D82788129800F6309C /* ButtonsFactory.swift in Sources */,
 				1E42789A27880F0000F6309C /* AppDelegate.swift in Sources */,
+				1E4278F9278819DE00F6309C /* Extenstions.swift in Sources */,
+				1E73493927882FA900EC7B3C /* Enums.swift in Sources */,
 				1E42789C27880F0000F6309C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +509,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L69643FJ3U;
 				INFOPLIST_FILE = BodyBuildTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +528,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L69643FJ3U;
 				INFOPLIST_FILE = BodyBuildTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
